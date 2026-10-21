@@ -4,7 +4,7 @@ Mémoire de Master 2 — IA et Data Science
 Université de Kinshasa (UNIKIN), Faculté des Sciences et Technologies  
 Année académique 2025–2026
 
-**Auteure :** Jemima SENKERE AFIDOU
+**Auteure :** Elton Twela Mway
 
 ---
 
@@ -17,14 +17,7 @@ Ce travail étudie la robustesse des systèmes de détection d'intrusion (IDS) b
 ## Structure du repository
 
 ```
-├── notebooks/
-│   └── experience.ipynb       # Notebook principal (entraînement + expériences)
-├── results/
-│   ├── resultats_graines_global.csv      # Vulnérabilité du baseline (10 graines)
-│   ├── resultats_defense.csv             # Comparaison des défenses (10 graines)
-│   ├── resultats_defense_types.csv       # Résultats par famille d'attaque
-│   ├── resultats_generalisation.csv      # Protocole leave-one-family-out
-│   └── resultats_stabilite.csv           # Stabilité sur 15 graines
+├── README.md
 ├── figures/
 │   ├── fig1_vulnerabilite_baseline.png
 │   ├── fig2_comparaison_defenses.png
@@ -34,6 +27,12 @@ Ce travail étudie la robustesse des systèmes de détection d'intrusion (IDS) b
 └── notebooks/
     ├── experience.ipynb       # Notebook principal (entraînement + expériences)
     └── generer_figures.py     # Script de génération des figures
+├── results/
+│   ├── resultats_graines_global.csv      # Vulnérabilité du baseline (10 graines)
+│   ├── resultats_defense.csv             # Comparaison des défenses (10 graines)
+│   ├── resultats_defense_types.csv       # Résultats par famille d'attaque
+│   ├── resultats_generalisation.csv      # Protocole leave-one-family-out
+│   └── resultats_stabilite.csv           # Stabilité sur 15 graines
 ```
 
 ---
@@ -128,4 +127,4 @@ Installation : `pip install tensorflow scikit-learn pandas numpy matplotlib`
 
 ## Encadrement
 
-Mémoire réalisé sous la direction du corps enseignant de la Faculté des Sciences et Technologies, Département Informatique, UNIKIN.
+Mémoire réalisé sous la direction du Professeur Ph.D Jordan Félicien Masakuna enseignant de la Faculté des Sciences et Technologies, Département Informatique, UNIKIN.
